@@ -1,0 +1,411 @@
+@media only screen and (min-width:200px) and (max-width:1160px){
+
+    .contaimer {
+        width: 957px;
+      }
+      .search ul {
+     
+        padding-left: 43px;
+      }
+      .hed {
+        
+        margin: 0px 35px;
+      }
+      .imageFild {
+        margin-top: 120px;
+      }
+      .logoo img {
+        width: 230px;
+        
+      }
+      
+      .imageFild {
+        
+        margin-left: 35px;
+      }
+      .foter_list p {
+        font-family: "Helvetica Neue", Helvetica, sans-serif;
+        color: #414141;
+        font-size: 14px;
+        
+      }
+      .background {
+        /* width: 957px; */
+        width: auto;
+}
+.imageFild {
+    margin-left: 100px;
+  }
+
+
+}
+@media only screen and (min-width:200px) and (max-width:1124px){
+    .ex {
+        width: 69%;
+      }
+
+}
+@media only screen and (min-width: 200px)and (max-width:992px){
+
+    .contaimer {
+        width: 969px;
+      }
+      .search ul {
+        padding-left: 30px;
+      }
+      .background {
+        /* width: 940px; */
+        width: auto;
+      }
+      
+      .extra {
+  
+        padding: 0px 0px 40px 60px;
+     
+      }
+}
+@media only screen and (min-width: 200px)and (max-width:991px){
+    .imageFild {
+        margin-left: 90px;
+      }
+      .background {
+        /* width: 700px; */
+        width: a;
+
+      }
+      .extra {
+        padding: 0px 0px 23px 135px;
+      }
+      .imageFild {
+        margin-left: 127px;
+        margin: 60px 132px;
+      }
+      .exx {
+        width: 65%;
+      }
+
+
+}
+@media only screen and (min-width:200px) and (max-width:987px){
+
+  .contaimer {
+      width: 917px;
+    }
+
+
+
+}
+
+
+
+@media only screen and (min-width:200px) and (max-width:977px){
+
+    .exx {
+        width: 66%;
+      }
+
+}
+
+@media only screen and (min-width:200px) and (max-width:928px){
+
+    .contaimer {
+        width: 870px;
+      }
+
+
+
+}
+@media only screen and (min-width:200px) and (max-width:900px){
+
+    #my-form {
+        width: 100%;
+      }
+      .hed {
+        margin: 0px 0px;
+      }
+
+
+
+  .contaimer {
+    width: 100%;
+    padding: 0px 10px;
+  }
+
+    .exx {
+        width: 34%;
+      }
+      .ex {
+        width: 36%;
+      }
+      #submit {
+        margin-top: 40px;
+      }
+      .right {
+        width: 100%;
+      }
+      .client {
+       
+        display: block ruby;
+      }
+     
+      .imageFild {
+        margin-top: 95px;
+      }
+      .footer {
+        
+        margin-top: 0px;
+      }
+      .imageFild {
+        margin-left: 95px;
+        margin-bottom: 40px;
+      }
+      
+}
+@media only screen and (min-width: 200px)and (max-width:886px){
+  .exx {
+    width: auto;
+  }
+  .ex {
+    width: auto;
+  }
+}
+
+
+@media only screen and (min-width: 200px) and (max-width:767px){
+
+.search {
+
+  display: none;
+}
+.contaimer {
+  width: 540px;
+  margin: auto;
+}
+.nev_logo {
+  margin-top: 98px;
+}
+h1::after {
+
+
+
+  border: 0.1px solid #d7282f;
+  margin-top: 6px;
+
+  height: 1px;
+}
+.menue ul li a {
+
+  font-size: 0.921rem;
+ 
+}
+small {
+
+  font-size: 0.921rem;
+}
+.menue ul li a {
+
+  padding: 4px 7px;
+ 
+}
+.menue ul li a:hover {
+
+  border-bottom: 4px solid #d7282f
+}
+.logoK_twiter {
+
+  display: none;
+}
+.extra {
+
+  display: none;
+}
+.foter_menue {
+  display: block;
+  width: 100%;
+  background: #1b1f29;
+}
+.footer {
+
+  border-bottom: none;
+}
+#foter_men {
+
+  padding: 15px 0px;
+}
+.background {
+  width: none;
+ 
+  margin: auto;
+
+}
+.imageFild {
+  margin-left: 113px;
+
+}
+.mi a i {
+  padding-bottom: 8px;
+  font-size: 17px;
+  color: white;
+}
+
+
+}
+
+@media only screen and (min-width: 200px) and (max-width:700px){
+  .input-data {
+ 
+    padding: 10px 20px;
+  }
+  .form_logo {
+    margin-top: 0px;
+    margin-bottom: 14px;
+    padding: 0px 20px;
+  }
+  .submit_btn {
+
+    padding: 5px 25px;
+  
+    font-size: 20px;
+    
+  }
+  .dtal {
+    padding: 0px 20px;
+  }
+}
+@media only screen and (min-width: 200px) and (max-width:640px){
+
+  .logoo img {
+    width: 150px;
+  }
+  .imageFild {
+    margin-left: 49px;
+  }
+
+
+
+
+
+ 
+}
+@media only screen and (min-width: 200px) and (max-width:575px){
+
+  .contaimer {
+    width: auto;
+  }
+  .forg {
+
+    padding: 5px 25px;
+
+  }
+
+}
+@media only screen and (min-width: 200px) and (max-width:480px){
+
+  .submit_btn {
+    padding: 0px 20px;
+    font-size: 18px;
+    margin: 0px 5px
+  }
+
+  .logoK_twiter {
+    display: block;
+    width: 100%;
+  }
+  .twit {
+    margin-top: 0px;
+
+  }
+  .list {
+   
+    padding-top: 44px;
+    padding-bottom: 0px;
+    width: 100%;
+    float: none;
+    
+  }
+  .forgate {
+    
+    margin-bottom: 40px;
+  }
+  .logoK_twiter {
+    display: block;
+    width: 100%;
+    padding: 31px 41px;
+  }
+  .image {
+    width: 50%;
+    float: left;
+  }
+  .flot_right {
+    float: right;
+    width: 50%;
+
+  }
+  .menue {
+    width: 100%;
+    float: right;
+   
+  }
+  .mi {
+  
+    margin: 0% 6%;
+  }
+  .forg {
+
+    padding: 0px 15px;
+
+  }
+  #submit {
+
+    padding: 0px 20px;
+    font-size: 18px;
+    
+  }
+  .right {
+    float: none;
+overflow: initial;
+  }
+  h1 {
+    
+    font-size: 26px;
+   
+  }
+  .imageFild {
+    margin-left: 26px;
+  }
+}
+@media only screen and (min-width: 200px) and (max-width:462px){
+  .ex {
+    width: 67%;
+  }
+
+}
+@media only screen and (min-width: 200px) and (max-width:438px){
+  .exx {
+    width: 63%;
+  }
+
+}
+@media only screen and (min-width: 200px) and (max-width:388px){
+  .ex {
+    width: 61%;
+  }
+  @media only screen and (min-width: 200px) and (max-width:360px){
+    .client {
+      display: block;
+    }
+  }
+
+}
+@media only screen and (min-width: 200px) and (max-width:357px){
+  .ex {
+    width: 67%;
+  }
+
+}
+@media only screen and (min-width: 200px) and (max-width:335px){
+  .ex {
+    width: 62%;
+  }
+
+}

@@ -1,0 +1,584 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Cabin:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800&family=Cabin:ital,wght@0,400;0,500;1,400&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* heder section? */
+
+
+
+
+.had {
+    background: #1b1f29;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.4s ease;
+}
+.contaimer {
+    width: 1140px;
+    margin: auto;}
+.main {
+    width: 100%;
+    overflow: hidden;
+}
+.image img {
+    width: 119px;
+    padding: 6px 1px;
+  }
+  .image {
+    width: 15%;
+    float: left;
+  }
+  .flot_right {
+    float: right;
+    width: 85%;
+    overflow: hidden;
+    padding: 21px 0px;
+  }
+  .search {
+    width: 50%;
+    float: left;
+    color: white;
+  }
+  .menue {
+    width: 50%;
+    float: right;
+    text-align: end;
+    color: white;
+  }
+  .menue ul {
+    text-align: end;
+    color: white;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+  }
+  .search p {
+    font-family: Cabin,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 700;
+  }
+  .search i {
+    
+    font-size: 16px;
+    margin-right: 2px;
+    padding: 0px 2px;
+  }
+  .menue ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 5px;
+    font-size: 18px;
+    font-family: Cabin,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+  }
+  .menue ul li {
+    list-style: none;
+  }
+  .search ul {
+    display: block ruby;
+  }
+  .search ul {
+    width: 100%;
+    list-style: none;
+  }
+  .search ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Cabin,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  .search ul li a:hover {
+    border-bottom: 1px solid #fff;
+  }
+  small {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Cabin,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+  }
+    /* heder section? */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .login a {
+    color: white;
+    text-decoration: none;
+    font-family: Cabin,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  .sinpu a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Cabin,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+
+
+  .hed {
+    overflow: hidden;
+    margin: 0px 100px;
+  }
+  .input-data {
+    display: grid;
+    padding: 0px 30px;
+  }
+  #my-form {
+    width: 50%;
+    float: left;
+  }
+  .right {
+    width: 50%;
+    float: right;
+    overflow: hidden;
+  }
+  .form_logo {
+    margin-top: 50px;
+    margin-bottom: 43px;
+    padding: 0px 30px;
+  }
+  input {
+    color: #526a81;
+    padding: 12px 15px;
+    border-radius: 5px !important;
+    outline: none;
+    border: 2px solid #d0d0d0;
+    font-size: 1.25rem;
+    margin-bottom: 40px;
+    margin-right: 3px;
+    transition: all 0.8s ease-in-out;
+  }
+ 
+  .form_logo p {
+    font-family: "Assistant", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #1b1f29;
+  }
+  .laval1 {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    margin-bottom: 5px;
+    font-size: .8rem;
+    text-transform: uppercase;
+    font-weight: 588;
+    color: #5d738d;
+  }
+  .capter img {
+    border: 2px solid blue;
+    margin-bottom: -3px;
+  }
+  .dtal {
+    padding: 0px 30px;
+  }
+  /* input:is(:focus) {
+    border: 2px solid #007bff;
+    transition: all 0.1s ease-in-out;
+  } */
+
+input:is(:focus){
+  border: 2px solid #007bff;
+    transition: all 0.1s ease-in-out;
+}
+#submit {
+  color: rgb(255, 255, 255);
+  background: #f74356;
+  border: 2px solid #f74356;
+  padding: 12px 50px;
+  border-radius: 50px;
+  font-family: 'Assistant', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  margin-bottom: 75px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+}
+.form-check-label {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  color: #414141;
+  font-size: 14px;
+}
+#submit:hover {
+  background: #b52227;
+  border: 2px solid #f74356;
+}
+.bun_center {
+  padding: 0 30px;
+}
+.dtal p {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #414141;
+  margin-bottom: 1em;
+}
+.dtal a {
+  text-decoration: none;
+  color: #414141;
+  border-bottom: 1px solid red; 
+  transition: color 0.4s ease-in-out;
+}
+.dtal a:hover {
+  color: red;
+}
+.submit_btn {
+  color: rgb(255, 255, 255);
+  background: #f74356;
+  border: 2px solid #f74356;
+  padding: 12px 50px;
+  border-radius: 50px;
+  font-family: 'Assistant', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  margin: 10px 20px;
+}
+.submit_btn:hover {
+  background: #b52227;
+  border: 2px solid #f74356;
+}
+.client {
+  text-align: center;
+  display: block;
+}
+
+.forg {
+  background: transparent;
+  font-family: 'Assistant', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #f74356;
+  text-align: center;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 2px solid #f74356 !important;
+  padding: 5px 15px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  transition: all 0.2s ease-out;
+}
+.forgate {
+  text-align: center;
+}
+.forg:hover {
+  background: #f74356;
+  color: #fff;
+}
+.logoo img {
+  width: 235px;
+}
+.imageFild {
+  margin: 130px 102px;
+}
+.logou img {
+  width: 150px;
+}
+.logou {
+  margin-top: 25px;
+}
+
+
+.foter_list p {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  color: #414141;
+  font-size: 14px;
+}
+.fa.fa-location-dot.fa-fw {
+  margin-right: 6px;
+  color: #1b1f29;
+}
+.footer {
+  background: #1b1f29;
+  margin-top: 60px;
+  border-bottom: 5px solid #d7282f;
+}
+.logoK_twiter {
+  color: white;
+}
+.list p {
+  color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+
+.background {
+  width: none;
+  margin: auto;
+  overflow: hidden;
+  margin: 0px 80px;
+}
+.list a {
+  text-decoration: none;
+  border-bottom: 1px solid #d7282f;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 1.5em;
+}
+.list {
+  padding: 44px 25px;
+  width: 85%;
+  float: left;
+
+}
+
+h1 {
+  font-family: "Assistant", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #1b1f29;
+}
+
+h1:after {
+  content: "";
+  width: 76px;
+  height: 4px;
+  background: #d7282f;
+  display: block;
+  border: #d7282f;
+  margin-top: 10px;
+  border-radius: 22px;
+}
+
+
+
+.logoK_twiter {
+  width: 15%;
+  float: right;
+  text-align: end;
+  padding: 0px;
+  border-radius: 120px;
+  display: flex;
+  justify-content: end;
+  
+}
+.fa.fa-twitter.tooltip-pink.tooltipstered {
+  background: #1b1f29;
+  padding: 4px;
+  border-radius: 30px;
+  color: #818181;
+}.twit {
+  margin-top: 236px;
+  background: red;
+  width: 24px;
+  padding-bottom: 2px;
+  border-radius: 12px;
+}.twitereee {
+  color: white;
+  background: red;
+  margin-top: 207px;
+  margin-bottom: 32px;
+  padding: 2px;
+  font-size: 16px;
+  display: none;
+}
+
+
+
+.nev_logo {
+  margin-top: 123px;
+}
+
+
+
+
+
+
+.twitereee {
+  color: white;
+  background: red;
+  margin-top: 207px;
+  margin-bottom: 32px;
+  padding: 2px;
+  font-size: 16px;
+  display: none;
+}
+
+.extra {
+  color: #333;
+  padding: 0px 0px 40px 121px;
+  font-size: 11px;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+/* foter""" */
+
+.foter_menue {
+  border-top: 1px solid hsla(0,0%,100%,.2);
+  overflow: hidden;
+  padding: 0px 30px;
+}
+
+
+
+
+  /* heder section? */
+
+
+  .search p {
+    font-family: Cabin,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 700;
+  }
+ 
+  .search ul {
+    display: block ruby;
+  }
+  .search ul li a:hover {
+    border-bottom: 1px solid #fff;
+  }
+  small {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Cabin,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+  }
+    /* heder section? */
+
+  .login a {
+    color: white;
+    text-decoration: none;
+    font-family: Cabin,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  .sinpu a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Cabin,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+
+
+
+
+ 
+  .form_logo p {
+    font-family: "Assistant", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #1b1f29;
+  }
+
+
+  /* input:is(:focus) {
+    border: 2px solid #007bff;
+    transition: all 0.1s ease-in-out;
+  } */
+
+input:is(:focus){
+  border: 2px solid #007bff;
+    transition: all 0.1s ease-in-out;
+}
+
+
+#submit:hover {
+  background: #b52227;
+  border: 2px solid #f74356;
+}
+.bun_center {
+  padding: 0 30px;
+}
+
+.dtal a:hover {
+  color: red;
+}
+
+.submit_btn:hover {
+  background: #b52227;
+  border: 2px solid #f74356;
+}
+
+.forg:hover {
+  background: #f74356;
+  color: #fff;
+}
+
+.logoK_twiter {
+  color: white;
+}
+.twitereee {
+  color: white;
+  background: red;
+  margin-top: 207px;
+  margin-bottom: 32px;
+  padding: 2px;
+  font-size: 16px;
+  display: none;
+}
+
+
+
+
+
+.menmm {
+  display: flex;
+  justify-content: center;
+}
+.mi {
+  text-align: center;
+  display: flex;
+  margin: 0% 13%;
+}
+.mi a {
+  color: #9eabbb;
+  font-size: .8125rem;
+  font-family: Cabin,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,sans-serif;
+  padding: 19px 0px;
+  text-decoration: none;
+  font-weight: 721;
+  width: 80px;
+  display: grid;
+}
+.foter_menue {
+
+  display: none;
+}
+.foter_menue {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

