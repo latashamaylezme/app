@@ -65,10 +65,10 @@
     font-weight: 700;
   }
   .search i {
-    
     font-size: 16px;
     margin-right: 2px;
-    padding: 0px 2px;
+    padding: 0px 4px;
+    margin-top: 4px;
   }
   .menue ul li a {
     color: white;
@@ -81,9 +81,7 @@
   .menue ul li {
     list-style: none;
   }
-  .search ul {
-    display: block ruby;
-  }
+ 
   .search ul {
     width: 100%;
     list-style: none;
@@ -460,7 +458,7 @@ h1:after {
   }
  
   .search ul {
-    display: block ruby;
+    display: flex;
   }
   .search ul li a:hover {
     border-bottom: 1px solid #fff;
